@@ -1,0 +1,9 @@
+{
+  "context": {
+    "action": "status",
+    "message_id": "msg-009"
+  },
+  "message": {
+    "order_id": "order-123"
+  }
+}

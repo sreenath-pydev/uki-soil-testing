@@ -1,0 +1,22 @@
+{
+  "context": {
+    "action": "on_status",
+    "message_id": "msg-010"
+  },
+  "message": {
+    "order": {
+      "id": "order-123",
+      "status": "COMPLETED",
+      "fulfillments": [
+        {
+          "id": "ff1",
+          "state": {
+            "descriptor": {
+              "name": "Soil Collected"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "context": {
+    "action": "on_select",
+    "message_id": "msg-004"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "krishi-kendra-001"
+      },
+      "quote": {
+        "price": {
+          "value": "350",
+          "currency": "INR"
+        },
+        "breakup": [
+          {
+            "title": "Service Charge",
+            "price": {
+              "value": "300"
+            }
+          },
+          {
+            "title": "Pickup Fee",
+            "price": {
+              "value": "50"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

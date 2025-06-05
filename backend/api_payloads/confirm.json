@@ -1,0 +1,11 @@
+{
+  "context": {
+    "action": "confirm",
+    "message_id": "msg-007"
+  },
+  "message": {
+    "order": {
+      "id": "order-123"
+    }
+  }
+}

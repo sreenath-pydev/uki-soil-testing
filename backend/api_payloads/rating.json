@@ -1,0 +1,11 @@
+{
+  "context": {
+    "action": "rating",
+    "message_id": "msg-011"
+  },
+  "message": {
+    "id": "order-123",
+    "rating_category": "service",
+    "value": 4.5
+  }
+}

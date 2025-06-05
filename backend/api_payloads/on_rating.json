@@ -1,0 +1,11 @@
+{
+  "context": {
+    "action": "on_rating",
+    "message_id": "msg-012"
+  },
+  "message": {
+    "ack": {
+      "status": "ACK"
+    }
+  }
+}

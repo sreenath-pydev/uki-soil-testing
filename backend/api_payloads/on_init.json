@@ -1,0 +1,24 @@
+{
+  "context": {
+    "action": "on_init",
+    "message_id": "msg-006"
+  },
+  "message": {
+    "order": {
+      "id": "order-123",
+      "provider": {
+        "id": "krishi-kendra-001"
+      },
+      "items": [
+        {
+          "id": "soil-test-basic"
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "ff1"
+        }
+      ]
+    }
+  }
+}

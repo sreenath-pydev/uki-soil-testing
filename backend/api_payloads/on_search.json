@@ -1,0 +1,50 @@
+{
+  "context": {
+    "action": "on_search",
+    "bpp_id": "bpp.krishikendra",
+    "bpp_uri": "https://bpp.krishikendra",
+    "transaction_id": "txn-001",
+    "message_id": "msg-002"
+  },
+  "message": {
+    "catalog": {
+      "providers": [
+        {
+          "id": "krishi-kendra-001",
+          "descriptor": {
+            "name": "Krishi Kendra Soil Services"
+          },
+          "items": [
+            {
+              "id": "soil-test-basic",
+              "descriptor": {
+                "name": "Basic Soil Test",
+                "short_desc": "NPK + pH + EC"
+              },
+              "price": {
+                "value": "350",
+                "currency": "INR"
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "ff1",
+              "type": "Farm Pickup",
+              "tags": {
+                "collection_type": "pickup"
+              }
+            },
+            {
+              "id": "ff2",
+              "type": "Drop at Centre",
+              "tags": {
+                "collection_type": "drop"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

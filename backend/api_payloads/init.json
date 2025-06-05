@@ -1,0 +1,32 @@
+{
+  "context": {
+    "action": "init",
+    "message_id": "msg-005"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "krishi-kendra-001"
+      },
+      "items": [
+        {
+          "id": "soil-test-basic"
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "ff1"
+        }
+      ],
+      "billing": {
+        "name": "Smita",
+        "phone": "+919999999999"
+      },
+      "payment": {
+        "type": "ON-FULFILLMENT",
+        "collected_by": "provider",
+        "status": "NOT-PAID"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "context": {
+    "action": "select",
+    "transaction_id": "txn-001",
+    "message_id": "msg-003"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "krishi-kendra-001"
+      },
+      "items": [
+        {
+          "id": "soil-test-basic"
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "ff1",
+          "customer": {
+            "person": {
+              "name": "Smita"
+            },
+            "contact": {
+              "phone": "+919999999999"
+            }
+          },
+          "end": {
+            "location": {
+              "gps": "19.9975,73.7898"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
